@@ -17,15 +17,28 @@ This project focuses on the prediction of commodity prices using deep learning m
 The dataset used in this project includes historical price data for six different commodities from 2000 to 2022, sourced from Kaggle. The commodities are Gold, Palladium, Nickel, Brent Oil, Natural Gas, and US Wheat. This data forms the basis for all model training, testing, and evaluation.
 
 ## Repository Structure
-- `data/`: Contains the dataset used for model training and evaluation.
-- `models/`: Includes Python notebooks and scripts for the implemented models (Linear Regression, SVR, LSTM, CNN + LSTM).
-- `results/`: Contains output from model evaluations, including performance metrics and visualizations.
+Below is the repository structure outlining the main directories and their contents:
+
+- `Figures/`: Contains visualizations and figures that are referenced in the project.
+
+- `Final Submission/`: Includes the final versions of the project files, such as the final report and the complete code.
+
+- `reading material/`: Provides additional resources, papers, and literature that support the underlying concepts and methods used in the project.
+
+- `Dissertation.docx`: The comprehensive dissertation document detailing the entire project scope, methodology, findings, and conclusions.
+
+- `commodity 2000-2022.csv`: The dataset used for model training and evaluation, containing historical commodity prices.
+
+- `README.md`: The file you're currently reading, which provides an overview and guide to the repository.
+
+- Other directories and files such as proposals, presentations, and links to video material that provide supplementary context and documentation for the project.
 
 ## Getting Started
-To run the models and replicate the findings, follow these steps:
-1. Clone this repository to your local machine.
-2. Ensure you have Python 3.x installed, along with the necessary libraries (TensorFlow, Keras, scikit-learn, Pandas, NumPy).
-3. Navigate to the `models/` directory and execute the notebooks/scripts.
+To replicate the study or to build upon the work done in this project, follow the guidelines below:
+
+1. Clone this repository to your machine.
+2. Install the required dependencies listed in the `requirements.txt` file (if available).
+3. Review the `Final Submission/` directory to understand the final state of the project.
 
 ## Future Work
 This project opens avenues for further research, particularly in exploring more advanced deep learning architectures, incorporating additional features and data sources, and refining model parameters for enhanced predictive accuracy.
